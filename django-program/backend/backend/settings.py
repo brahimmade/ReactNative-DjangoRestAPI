@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'rest_framework.authtoken',
+    'api',
+    'restapi',
 ]
 
 
@@ -90,7 +92,11 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
-    }
+    },
+    'notes' : {
+      'ENGINE' : 'djongo',
+      'NAME' : 'notes_database'
+   }
 }
 
 
