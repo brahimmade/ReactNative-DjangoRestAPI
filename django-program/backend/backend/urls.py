@@ -17,7 +17,7 @@ from django.urls import path, include
 from django.conf.urls import url
 from  api import views
 
-
+""" Url Patterns to access others apps """
 urlpatterns = [
     path('admin/', admin.site.urls),
     url(r'restapi/', include('restapi.urls')),

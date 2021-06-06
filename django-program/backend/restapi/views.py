@@ -1,9 +1,6 @@
 from django.shortcuts import render
 
 # Create your views here.
-
-# backend/restapi/views.py
-
 from django.contrib.auth import get_user_model
 from rest_framework.generics import CreateAPIView
 from rest_framework.permissions import AllowAny
