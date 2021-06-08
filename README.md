@@ -1,4 +1,4 @@
-# ReactNative-DjangoRestAPI
+# React-Native and Django Rest API
 
 React Native and Django Rest Framework (Mongodb & SQL)
 
