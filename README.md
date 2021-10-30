@@ -13,7 +13,7 @@ If you wish to install Django using the Ubuntu repositories, the process is very
 
 First, update your local package index with apt:
 
-sudo apt update
+
 
 Next, check which version of Python you have installed. 20.04 ships with Python 3.8 by default, which you can verify by typing:
 
