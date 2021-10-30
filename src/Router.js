@@ -3,7 +3,7 @@ import { StyleSheet, StatusBar } from 'react-native';
 import { Scene, Stack, Router, Actions } from 'react-native-router-flux';
 import Login from './components/Login';
 import Register from './components/Register';
-import Home from './components/Home';
+import Home2 from './components/Home';
 
 
 const RouterComponent = () => {
