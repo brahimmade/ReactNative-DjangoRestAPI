@@ -149,7 +149,7 @@ $ python -m pip install Django
 Installing a distribution-specific package¶
 Check the distribution specific notes to see if your platform/distribution provides official Django packages/installers. Distribution-provided packages will typically allow for automatic installation of dependencies and supported upgrade paths; however, these packages will rarely contain the latest release of Django.
 
-Installing the development version¶
+# Installing the development version¶
 Tracking Django development
 
 If you decide to use the latest development version of Django, you’ll want to pay close attention to the development timeline, and you’ll want to keep an eye on the release notes for the upcoming release. This will help you stay on top of any new features you might want to use, as well as any changes you’ll need to make to your code when updating your copy of Django. (For stable releases, any necessary changes are documented in the release notes.)
@@ -161,7 +161,7 @@ Make sure that you have Git installed and that you can run its commands from a s
 Check out Django’s main development branch like so:
 
 / 
-$ git clone https://github.com/django/django.git
+# $ git clone https://github.com/django/django.git
 This will create a directory django in your current directory.
 
 Make sure that the Python interpreter can load Django’s code. The most convenient way to do this is to use a virtual environment and pip. The contributing tutorial walks through how to create a virtual environment.
@@ -169,7 +169,7 @@ Make sure that the Python interpreter can load Django’s code. The most conveni
 After setting up and activating the virtual environment, run the following command:
 
 / 
-$ python -m pip install -e django/
+# $ python -m pip install -e django/
 This will make Django’s code importable, and will also make the django-admin utility command available. In other words, you’re all set!
 
 When you want to update your copy of the Django source code, run the command git pull from within the django directory. When you do this, Git will download any changes.
