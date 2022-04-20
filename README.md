@@ -173,3 +173,19 @@ After setting up and activating the virtual environment, run the following comma
 This will make Django’s code importable, and will also make the django-admin utility command available. In other words, you’re all set!
 
 When you want to update your copy of the Django source code, run the command git pull from within the django directory. When you do this, Git will download any changes.
+
+Models and databases¶
+A model is the single, definitive source of information about your data. It contains the essential fields and behaviors of the data you’re storing. Generally, each model maps to a single database table.
+
+Models
+Making queries
+Aggregation
+Search
+Managers
+Performing raw SQL queries
+Database transactions
+Multiple databases
+Tablespaces
+Database access optimization
+Database instrumentation
+Examples of model relationship API usage
