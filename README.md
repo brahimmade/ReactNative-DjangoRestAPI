@@ -93,10 +93,10 @@ In order to issue the network requests, React Native provides access to the Fetc
 npm install --save axios
 Ok, we’re ready to start writing some React Native at this point.
 
-How to install Django¶
+# How to install Django¶
 This document will get you up and running with Django.
 
-Install Python¶
+# Install Python¶
 Django is a Python web framework. See What Python version can I use with Django? for details.
 
 Get the latest version of Python at https://www.python.org/downloads/ or with your operating system’s package manager.
@@ -132,7 +132,7 @@ If you plan to use Django’s manage.py migrate command to automatically create 
 
 If you’re using Django’s testing framework to test database queries, Django will need permission to create a test database.
 
-Install the Django code¶
+# Install the Django code¶
 Installation instructions are slightly different depending on whether you’re installing a distribution-specific package, downloading the latest official release, or fetching the latest development version.
 
 Installing an official release with pip¶
