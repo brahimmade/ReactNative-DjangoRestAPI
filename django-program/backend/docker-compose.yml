@@ -2,7 +2,7 @@ version: "3"
 services:
   app:
     build:
-      context: ./djangomysql
+      context: ./blog_api
       dockerfile: Dockerfile
     entrypoint: ["./wait.sh"]
     depends-on: #links:
